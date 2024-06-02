@@ -38,6 +38,7 @@ $ npm run develop
 ```
 
 #### Frontend
+실행 방법 - npm run dev 후 localhost - 3000 클릭 
 ```bash 
 $ cd voluntain-app
 $ nvm use v.14.19.3
