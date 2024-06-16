@@ -10,6 +10,7 @@ const features = [
   "친환경적인 인터페이스",
   "손쉬운 가상자산 매매",
   "AI 기반 암호화폐 트레이딩 서비스 제공",
+  "커뮤니티를 통한 정보 교환",
 ];
 
 const Feature = () => {
@@ -20,8 +21,10 @@ const Feature = () => {
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
       id="feature"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
-        <ScrollAnimationWrapper className="flex w-full justify-end">
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
+        <ScrollAnimationWrapper className="flex w-full justify-end items-center">
+          {" "}
+          {/* 수정된 부분 */}
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/buysell.png"
@@ -40,8 +43,8 @@ const Feature = () => {
               기존과 다른 차별화된 기능!
             </h3>
             <p className="my-2 text-black-500">
-              자동화된 시스템의 새로운 기능을 경험하고 싶으시다면 당장
-              코인브로를 시작하세요!
+              자신에게 딱 맞는 수익화 모델을 제공받는 새로운 경험을 하고싶지
+              않으신가요?
             </p>
             <ul className="text-black-500 self-start list-inside ml-8">
               {features.map((feature, index) => (
