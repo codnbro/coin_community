@@ -8,14 +8,14 @@ const Navbar = () => {
     <>
       <div className="navline">
         <div className="navbarwrap">
-          <a href="/mainpage">
+          <a href="/Codebro">
             <Image src={coinicon} alt="coinicon"></Image>
           </a>
           <div className="navbar">
-            <a href="/">코인시세</a>
-            <a href="/">코인소식</a>
-            <a href="/">코인 인트로</a>
-            <a href="/">코인 거래소</a>
+            <a href="/Codebro">코인시세</a>
+            <a href="/Codebro">코인소식</a>
+            <a href="/Codebro">코인 인트로</a>
+            <a href="/Codebro">코인 거래소</a>
             <a href="/">코인 지갑 만들기</a>
             <a href="/">코인 리포트</a>
             <a href="/">NFT</a>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <a href="/info">서비스</a>
           </div>
           <div className="login">
-            <a href="/">
+            <a href="/Codebro">
               <div className="profileWrap">
                 <Image src={profile} alt="login"></Image>
                 <Image
